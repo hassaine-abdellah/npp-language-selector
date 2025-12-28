@@ -2,9 +2,9 @@
 
 ## plugin for Notepad++
 ### Description
-Notepad++ allows you to manually choose the current language (and associated syntax highlighting) from the tab menu, or when you save the fill according to that extension,\
-But very often, you will need to set the language and see the highlighting of code on new files *before* you save them, and without going each time to the menu and choosing the language.\
-This plug-in allows you to do that easily, and in addition, to access your favourite/most-used languages in a quick manner.
+Notepad++ allows you to manually choose the current programming language from the tab menu, or when you save the fill according to that extension.\
+But very often, you need to set the language and see the syntax highlighting of code on new files *before* you save them, and without going each time to the menu to choose the language.\
+This plug-in allows you to do that, and in addition, to access your favourite/most-used languages in a quick manner.
 ### Features
 • Select programming language from drop-down menu.\
 • Auto-show selection dialogue on new tabs (can be turned off).\
