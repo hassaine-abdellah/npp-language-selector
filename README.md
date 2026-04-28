@@ -5,7 +5,7 @@
 
 ## Description
 
-Upon opening a new file in Notepad++, you have to manually choose the programming language from the tab menu so you can see the corresponding syntax highlighting, or alternatively you wait until you save the file and choose the appropiate extension among some 90-ish entry. Doing that with every new tab is a bit of hassle.\
+Upon opening a new file in Notepad++, you have to manually choose the programming language and set the corresponding syntax highlighting, or alternatively you wait until you save the file and choose the appropiate extension among some 90-ish entry. Doing that with every new tab is a bit of hassle.  
 
 Language Selector allows you to handle this process in a simpler manner so you can focus on your coding.
 ## Features
