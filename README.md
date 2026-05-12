@@ -1,23 +1,22 @@
-# Language Selector
-##### Notepad++ Plugin
+## Language Selector
+#### Notepad++ Plugin
 
 <br>
 
-## Description
+### Description
 
-Upon opening a new file in Notepad++, you have to manually choose the programming language and set the corresponding syntax highlighting, or alternatively you wait until you save the file and choose the appropiate extension among some 90-ish entry. Doing that with every new tab is a bit of hassle.  
+Upon opening a new file in Notepad++, you have to manually choose the programming language and set the corresponding syntax highlighting, or alternatively you wait until you save the file and choose the appropiate extension among more than 96 entry. Doing that with every new tab is a bit of hassle.  
 
-Language Selector allows you to handle this process in a simpler manner so you can focus on your coding.
-## Features
-• Auto-show the selection dialogue on new tabs from a drop-down list containing all the supported languages (96 languages).\
-• Pin your favourite languages on top of the list for quick access.\
-• Configurable favourite list size (when favourites are full, the oldest one -first in- is removed).
-## How to install
+Language Selector simplifies this process by letting you:\
+• Automatically show a language selection dialog whenever a new tab is opened, from all the supported 96 languages.\
+• Pin your favourite languages on the top of the list for quick access.\
+• Customize the favourite list size (when it is full, the oldest one -first in- is removed).
+### How to install
 **Go to *Plugins* > *Plugins admin*, and then look for '*Language selector*'.**
 
 NB: You can also install the plugin manually (not recommanded as the above way is much easier):\
 For **64-bit** computers, decompress the archive ***plugin_dll_x64.zip*** from the *Releases* section (in the right of this page), and place the extracted folder inside the ***plugins*** folder of Notepad++ main folder.\
-The same goes for **arm64** and **32-bit** systems, for which you wil need ***plugin_dll_arm64.zip*** and ***plugin_dll_x86.zip*** files, respectively.
+The same goes for ***plugin_dll_arm64.zip*** and ***plugin_dll_x86.zip*** files, for **arm64** and **32-bit** systems respectively.
 ### Feedback
 The author gladly welcomes your feedback and suggestions here:\
 **hassaine_abdellah@univ-blida.dz**
