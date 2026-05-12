@@ -890,9 +890,9 @@ void About() {
     L"Description: This plug-in allows you to quickly select the programming language for the current tab, "
     L"and by consequence the corresponding syntax highlighting.\n\n"
     L"Features:\n"
-    L"• Auto-show the selection dialogue on new tabs from a drop-down list containing all the supported languages.\n"
-    L"• Pin your favourite languages on top of the list for quick access.\n"
-    L"• Configurable favourite list size (when favourites are full, the oldest one is removed).\n\n"
+    L"- Auto-show the selection dialogue on new tabs from a drop-down list containing all the supported languages.\n"
+    L"- Pin your favourite languages on top of the list for quick access.\n"
+    L"- Configurable favourite list size (when favourites are full, the oldest one is removed).\n\n"
     L"The author welcomes your suggestions to improve the plugin.\n";config.pfCallback = TaskDialogCallbackProc;
     config.dwCommonButtons = TDCBF_OK_BUTTON;
     TaskDialogIndirect(&config, NULL, NULL, NULL);
