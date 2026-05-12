@@ -882,8 +882,18 @@ void About() {
     config.dwFlags = TDF_ENABLE_HYPERLINKS | TDF_ALLOW_DIALOG_CANCELLATION;
     config.pszWindowTitle = L"About Language Selector";
     config.pszMainInstruction = L"Language Selector Plugin";
-    config.pszContent = L"Version: 1.2\nCopyright © Abdellah Hassaine, May 2026\n\nWebsite: <a href=\"website\">https://github.com/hassaine-abdellah/npp-language-selector/</a>\nContact: <a href=\"email\">hassaine_abdellah@univ-blida.dz</a>\n\nDescription: This plug-in allows you to quickly select the programming language for the current tab, and by consequence the corresponding syntax highlighting.\n\nFeatures:\n• Auto-show the selection dialogue on new tabs from a drop-down list containing all the supported languages.\n• Pin your favourite languages on top of the list for quick access.\n• Configurable favourite list size (when favourites are full, the oldest one is removed).\n\nThe author gladly welcomes your feedback.\n";
-    config.pfCallback = TaskDialogCallbackProc;
+   config.pszContent = 
+    L"Version: 1.2\n"
+    L"Copyright Abdellah Hassaine, May 2026\n\n"
+    L"Website: <a href=\"website\">https://github.com/hassaine-abdellah/npp-language-selector/</a>\n"
+    L"Contact: <a href=\"email\">hassaine_abdellah@univ-blida.dz</a>\n\n"
+    L"Description: This plug-in allows you to quickly select the programming language for the current tab, "
+    L"and by consequence the corresponding syntax highlighting.\n\n"
+    L"Features:\n"
+    L"• Auto-show the selection dialogue on new tabs from a drop-down list containing all the supported languages.\n"
+    L"• Pin your favourite languages on top of the list for quick access.\n"
+    L"• Configurable favourite list size (when favourites are full, the oldest one is removed).\n\n"
+    L"The author welcomes your suggestions to improve the plugin.\n";config.pfCallback = TaskDialogCallbackProc;
     config.dwCommonButtons = TDCBF_OK_BUTTON;
     TaskDialogIndirect(&config, NULL, NULL, NULL);
 }
