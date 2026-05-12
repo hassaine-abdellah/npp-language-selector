@@ -16,8 +16,8 @@ Language Selector allows you to handle this process in a simpler manner so you c
 **Go to *Plugins* > *Plugins admin*, and then look for '*Language selector*'.**
 
 NB: You can also install the plugin manually (not recommanded as the above way is much easier):\
-For **64-bit** computers, decompress the archive ***Language_Selector_v1.2_x64.7z*** from the *Releases* section (in the right of this page), and place the extracted folder inside the ***plugins*** folder of Notepad++ main folder.\
-The same goes for **arm64** and **32-bit** systems, just do the same for ***Language_Selector_v1.2_x86.7z*** and **Language_Selector_v1.2_arm64.zip** files, respectively.
+For **64-bit** computers, decompress the archive ***plugin_dll_x64.zip*** from the *Releases* section (in the right of this page), and place the extracted folder inside the ***plugins*** folder of Notepad++ main folder.\
+The same goes for **arm64** and **32-bit** systems, for which you wil need ***plugin_dll_arm64.zip*** and ***plugin_dll_x86.zip*** files, respectively.
 ### Feedback
 The author gladly welcomes your feedback and suggestions here:\
 **hassaine_abdellah@univ-blida.dz**
