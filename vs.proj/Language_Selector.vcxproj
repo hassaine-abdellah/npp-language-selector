@@ -33,12 +33,14 @@
     <ClInclude Include="..\src\PluginInterface.h" />
     <ClInclude Include="..\src\Scintilla.h" />
     <ClInclude Include="..\src\Sci_Position.h" />
+<ClInclude Include="..\src\resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\PluginDefinition.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\src\Language_Selector.rc" />
+<ResourceCompile Include="..\src\resource.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9D04DBD5-E12E-44E0-A683-6F43F21D533B}</ProjectGuid>
